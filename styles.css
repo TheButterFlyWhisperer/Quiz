@@ -7,14 +7,6 @@
 
 body {
   background-color: lightgoldenrodyellow;
-
-  /* background-size: 20px 20px; */
-  /* background-image: linear-gradient(to right, #e9e9bf, transparent 1px),
-    linear-gradient(to bottom, #e9e9bf 1px, transparent 1px); */
-}
-
-button {
-  /* display: block; */
 }
 
 #question {
@@ -75,10 +67,11 @@ li {
   border-width: 4.5px 0 0;
   background-color: #1899d6;
   box-shadow: 1px 5px #0d6c97;
-  transition: 2ms;
 }
 
 #submit:hover {
+  background-color: #1899d6;
+  box-shadow: 1px 5px #0d6c97;
 }
 
 #question {
