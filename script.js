@@ -86,10 +86,10 @@ const quiz = document.getElementById("quiz")
 const answerElements = document.querySelectorAll(".answer");
 const questionElement = document.getElementById("question");
 
-const a_text = document.getElementById("a_text");
-const b_text = document.getElementById("b_text");
-const c_text = document.getElementById("c_text");
-const d_text = document.getElementById("d_text");
+const a_text = document.getElementById("atext");
+const b_text = document.getElementById("btext");
+const c_text = document.getElementById("ctext");
+const d_text = document.getElementById("dtext");
 
 const submitButton = document.getElementById("submit");
 
@@ -114,10 +114,10 @@ const selectThing = () => {
         const currentQuizData = quizQuestions[currentQuiz];
 
         questionElement.innerText = currentQuizData.question;
-        a_text.innerText = currentQuizData.a;
-        b_text.innerText = currentQuizData.b;
-        c_text.innerText = currentQuizData.c;
-        d_text.innerText = currentQuizData.d;
+        atext.innerText = currentQuizData.a;
+        btext.innerText = currentQuizData.b;
+        ctext.innerText = currentQuizData.c;
+        dtext.innerText = currentQuizData.d;
     };
 
     loadingQuiz();
