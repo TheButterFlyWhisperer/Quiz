@@ -1,8 +1,97 @@
 body {
-    background-color:lightgoldenrodyellow;
+    background-color:lightgreen;
 
 }
 
 button {
     display: block;
+}
+
+#question {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+input[type="radio"] {
+    font-size: 40px;
+    margin-top: 4%;
+}
+
+li {
+    list-style: none;
+}
+
+.quiz-container {
+    margin-top: 20px;
+    width: 300px;
+    height: 440px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    box-shadow: 6px 6px rgb(240, 245, 245);
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#submit {
+    color: #fff;
+    margin-top: 40%;
+    background-color:forestgreen;
+    padding: 10px 20px 10px 20px;
+    border-width: 0 0 4px;
+    border-radius: 6px;
+    border: solid transparent;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 1px 5px #1899d6;
+    letter-spacing: 0,8px;
+    font-weight: 700;
+    outline: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#submit:active {
+    color: #ffffffd7;
+    border-width: 4.5px 0 0;
+    background-color: #1899d6;
+    box-shadow: 1px 5px #0d6c97;
+    transition: 2ms;
+
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+#question {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 900;
+color: 1899d6;
+}
+
+#results {
+font-family: Arial, Helvetica, sans-serif;
+
+position: absolute;
+
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;text-align: center;
+    font-weight: 900;
+    color: 1899d6;
 }

@@ -8,7 +8,7 @@ const quizQuestions = [
         correct: "b",
     },
     {
-        question: "Which of these animals has a shell called a carpace?",
+        question: "Which of these animals has a shell called a carapace?",
         a: "Spider",
         b: "Snail",
         c: "Turtle",
@@ -16,7 +16,7 @@ const quizQuestions = [
         correct: "c",
     },
     {
-        question: "Which of these animals is a nocturnal bird that has large-foward facing eyes",
+        question: "Which of these animals is a nocturnal bird that has large eyes",
         a: "Owl",
         b: "Falcon",
         c: "Eagle",
